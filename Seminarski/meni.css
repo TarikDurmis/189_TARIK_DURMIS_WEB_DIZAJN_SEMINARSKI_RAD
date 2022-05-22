@@ -20,20 +20,20 @@
     font-size: 2rem;
     color: #2e2c2b;
   }
-  
-  img {
-    display: block;
-    margin: 1rem auto;
-    max-width: 60%;
-    max-height: 60%;
-    align-items: center;
-  }
 
   p {
     margin: 0;
     font-size: 2rem;
     text-align: center;
     color: #c4c4c4;
+  }
+
+  img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 60%;
+    max-height: 60%;
+    align-items: center;
   }
   
   .container {

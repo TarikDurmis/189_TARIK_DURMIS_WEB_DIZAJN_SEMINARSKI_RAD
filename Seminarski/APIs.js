@@ -15,6 +15,7 @@ async function catchJson(){
         box.setAttribute('class', 'box')
 
         const h1 = document.createElement('h1')
+        
         h1.textContent = Food.name;
 
         const p = document.createElement('p');
