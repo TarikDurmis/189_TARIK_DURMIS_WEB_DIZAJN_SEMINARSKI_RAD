@@ -48,5 +48,24 @@
     overflow: hidden;
     transition: all .2s linear;
   }
+  
+  .box:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, 6px, 0);
+    opacity: 1;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .box {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .box {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
+  
 
   
