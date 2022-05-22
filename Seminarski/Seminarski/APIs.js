@@ -29,3 +29,39 @@ async function catchJson(){
         box.appendChild(p)
         });
 }
+
+
+fetch('https://ptf-web-dizajn-2022.azurewebsites.net/api/Food', {
+    method: "POST",
+    body: JSON.stringify({
+        "id": 0,
+    	"name": "string",
+        "price": 0,
+        "imageUrl": "string"
+    }), 
+    headers: {
+        "Content-type": "application/json; charset=UTF-8"
+    }
+})
+
+.then(json => console.log(json));
+
+fetch('https://ptf-web-dizajn-2022.azurewebsites.net/api/Food', {
+
+    method: "PUT",
+     
+    body: JSON.stringify({
+        "id": 0,
+        "name": "string",
+        "price": 0,
+        "imageUrl": "string"
+    }),
+     
+    headers: {
+        "Content-type": "application/json; charset=UTF-8"
+    }
+})
+
+.then(json => console.log(json));
+
+catchJson();
